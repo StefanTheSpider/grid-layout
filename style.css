@@ -1,0 +1,33 @@
+.titel-vorteile {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.vorteil > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+}
+
+.vorteil {
+  display: flex;
+}
+
+.vorteil p {
+  margin-top: 0;
+}
+
+.container-vorteile {
+  width: 80%;
+  margin: auto; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px 40px;
+  justify-self: space-around;
+}
+
+@media(max-width: 1070px) {
+  .container-vorteile {
+    grid-template-columns: 1fr;
+  }
+}
